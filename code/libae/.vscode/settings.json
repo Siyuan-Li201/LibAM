@@ -1,0 +1,11 @@
+{
+    "python.analysis.extraPaths": [
+        "./code/anchor_detection/semantic_anchor_detection",
+        "./code/binary_preprocess",
+        "./code/embeddings_generate",
+        "./code/anchor_reinforcement/anchor_alignment",
+        "./code/reuse_area_exploration/TPL_detection",
+        "./code/reuse_area_exploration/reuse_area_detection",
+        "./code/reuse_area_exploration/Embeded-GNN"
+    ]
+}
