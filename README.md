@@ -9,12 +9,14 @@ This repository contains the datasets and source code for the paper, ["LibAM: An
 #### The `requirements.txt` file for Python dependencies is located in the `envs/` directory.
 
 # Structure
-- `code/`: All source code of LibAM
+- `code/`: All source code of LibAM ()
 - `dataset/`: All four datasets used in LibAM
 - `envs/`: Python dependencies of LibAM
 - `groundtruth/`: The ground truth for dataset2 and dataset3 in LibAM
 - `code/libam/data/`: All detection results and intermediate data are saved in the directory
 - [`result/`](https://drive.google.com/drive/folders/1XWvBt0CfocXbayrAwHAkeHUt3ruXLs_a?usp=sharing): Final detection results in paper and all intermediate data from the detection process. You can use this data rather than raw binaries in `dataset/` to run any process of LibAM.
+
+(For the purpose of large-scale analysis, the code is set to run with multiple processes by default. However, it can be easily modified to run with a single process. In fact, for dataset2 and dataset3, running with a single process is already quite fast.)
 
 # Run
 ## 1. Prepare dataset
