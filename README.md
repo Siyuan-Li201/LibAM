@@ -18,7 +18,7 @@ This repository contains the datasets and source code for the paper, ["LibAM: An
 
 # Run
 ## 1. Prepare dataset
-#### Copy `dataset2` or `dataset3` from `dataset/` to `code/libam/data/`.
+#### Copy `dataset2` or `dataset3` from `dataset/` to `code/libam/data/`. (The target binaries in dataset are not striped for manully analyzing the detection results of LibAM, which is same as in previous paper. Note that removing the function names in target binaries doesn't affect LibAM detection)
 #### Modify the `DATA_PATH` in `code/libam/settings.py` to select a dataset to run (both the data path and tool path in `settings.py` should be set).
 #### Note: You only need to prepare IDA Pro and Python 2.7 if you want to run from raw binaries in the `dataset/`. You can decompress the [`result/`](https://drive.google.com/drive/folders/1XWvBt0CfocXbayrAwHAkeHUt3ruXLs_a?usp=sharing) and place it instead of `dataset/` into `code/libam/data/data/`, and use the pre-extracted features provided by us.
 
