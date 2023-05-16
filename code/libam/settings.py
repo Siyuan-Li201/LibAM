@@ -1,6 +1,6 @@
 
 WORK_PATH = "."
-DATA_PATH = "data/dataset3/"
+DATA_PATH = "data/dataset2/"
 GT_PATH = "data/groundtruth/"
 FEATURE_EXTRACT_PATH = WORK_PATH +"/code/binary_preprocess/ida_get_features.py"
 FCG_EXTRACT_PATH = WORK_PATH +"/code/binary_preprocess/ida_get_func_call.py"
