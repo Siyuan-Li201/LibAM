@@ -1,5 +1,5 @@
 # LibAM
-This repository contains the datasets and source code for the paper, ["LibAM: An Area Matching Framework for Detecting Third-party Libraries in Binaries"](https://arxiv.org/abs/2305.04026).
+This repository contains the datasets and source code for the paper, ["LibAM: An Area Matching Framework for Detecting Third-party Libraries in Binaries"](https://arxiv.org/abs/2305.04026v2).
 ![application1](https://github.com/Siyuan-Li201/LibAM/assets/128788605/151e58ad-af60-4dda-9e44-8cc831e78f4f)
 
 # Environment
